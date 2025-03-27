@@ -6,6 +6,16 @@
     <title>Document</title>
 <style>
 
+
+h1{
+    text-align: center;
+    }
+
+    h2{
+    text-align: center;
+    }
+
+
   .catalogo{
    width: 90%;
    max-width: 1000px;
@@ -21,6 +31,8 @@
    font-family: Arial, Helvetica, sans-serif;
 
   }
+
+
   .producto{
 
 position: relative;
@@ -46,7 +58,7 @@ color:#2d3436;
 .producto2{
 
 position: relative;
-flex: 3;
+flex: 2;
 padding: 15px;
 border: #333 2px solid;
 border-radius: 8px;
@@ -65,6 +77,41 @@ box-shadow: 0 3px 6px rgba (0,0,0,0.2);
 margin-bottom: 10px;
 color:#2d3436;
 }
+
+
+
+
+.producto h3{
+margin-bottom: 10px;
+color:#2d3436;
+}
+.producto3{
+
+position: relative;
+flex: 5;
+padding: 15px;
+border: #333 2px solid;
+border-radius: 8px;
+background-color: #fff;
+box-shadow: 0px 4px 10px rgba(0,0,0,0.1),;
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+.producto3:hover{
+
+transform: scale(1.03);
+box-shadow: 0 3px 6px rgba (0,0,0,0.2);
+}
+
+.producto3 h3{
+margin-bottom: 10px;
+color:#2d3436;
+}
+
+
+
+
+
 
 .descripcion{
 font-size: 14px;
@@ -94,19 +141,74 @@ margin-bottom: 15px;
         rotate: 45deg;
     }
 
-  
+    @media (max-width: 768px){
+body,html{
+    background-color: #7c96ac;
+}
+
+.catalogo{
+flex-direction: column;
+align-items: center;
+
+}
+.titulo{
+
+    font-size: 1.5rem;
+}
+
+.logo img{
+position: center;
+
+}
+
+
+.producto{
+
+    padding: 10px;
+    width: 90%;
+}
+
+.producto img{
+
+    max-width: 80%;
+}
 
 
 
+}
 
- 
+@media (max-width: 500px){
 
+    .producto{
+
+        padding: 5px;
+        width: 95%;
+    }
+    
+    .producto img{
+    
+        max-width: 100%;
+    }
+    
 
 </style>
 
 
 </head>
 <body>
+
+
+<img src="img/logo.jpg">
+
+<div class="logo">
+
+
+<header> <h1>Pantalones de Ocasión</h1></header>
+
+
+<h2>Tu tienda especializada en articulos de primera calidad a coste de saldo</h2>
+
+
 
     <!-- =================linea 1================= -->
 <div class="catalogo">
@@ -154,6 +256,45 @@ margin-bottom: 15px;
 </div>
 
 
+<div class="catalogo">
+ 
+    <div class="producto">
+        <span class="oferta"> ¡Oferta!</span> 
+  <h2>Vaqueros Slim fit</h2>
+  <p class="descripcion">Ajustados al cuerpo, modernos y cómodos</p>
+  <p class="precio">49,99</p>
+</div>
+
+        <div class="producto">
+            <h2>Estilo texanos</h2>
+            <p class="descripcion">Estilo wild west</p>
+            <p class="precio">39,99</p>
+    
+        </div> 
+            <div class="producto">
+                <span class="oferta"> ¡Oferta!</span> 
+                <h2>Vaqueros Rotos</h2>
+                <p class="descripcion">Estilo urbano con rotos en las rodillas. Solo para los mas atrevidos</p>
+                <p class="precio">59,99</p>
+            </div>    
+    
+
+            <div class="producto">
+                <h2>Chinos</h2>
+                <p class="descripcion">Estilo elegante</p>
+                <p class="precio">59,99</p>
+            </div>    
+
+    
+    </div>    
+
+</div>
+
+<h3>nuestros servicios</h3>
+
+
+
+<h4>Todos los derechos reservados, copyright 2025</h4>
 
     
 </body>
