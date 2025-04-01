@@ -1,0 +1,19 @@
+table {border-style: solid;
+width: 80%;
+margin: 3em;
+    border-collapse: collapse
+
+
+
+
+}
+
+
+
+    td { border-style:solid;
+        padding: 5px;
+        background-color: beige}
+
+
+        th { border-style:solid; padding: 5px; background-color: bisque}
+       

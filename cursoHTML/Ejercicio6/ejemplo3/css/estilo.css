@@ -1,3 +1,9 @@
+
+table{
+
+    width: 100%;
+}
+
 table, td{
 
     border: 1px solid black;
@@ -20,3 +26,34 @@ background-color:blueviolet;
 
     background-color: greenyellow;
 }
+
+caption{
+
+    color: blue; 
+    size: 15em;
+}
+
+
+td.menu {
+
+    width: 25%; 
+    
+    background-color: lightyellow;
+    
+    }
+    
+    td.contenido {
+    
+    width: 50%;
+    
+    background-color: beige;
+    
+    }
+    
+    td.lateral {
+    
+    width: 25%;
+    
+    background-color: bisque;
+    
+    }
